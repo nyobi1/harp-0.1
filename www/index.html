@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> <%- pageTitle %> | <%- siteTitle %> </title>
+        <title> Home | My BootStrap boilerplates </title>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -21,9 +21,33 @@
         <![endif]-->
     </head>
     <body>
-        <%- partial("partial/_header") %>
-        <%- yield %>
-        <%- partial("partial/_footer") %>
+        <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#navbar1">
+                <span class="sr-only"> Toggle Navigation</span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+            </button>
+            <a href="index.html" class="navbar-brand"> My BootStrap boilerplates </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="nav navbar-nav">
+                <li > <a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+        
+        <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            &copy; 2015 Matt Lambert
+        </div>
+    </div>
+</div>
         <!-- javascript -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>

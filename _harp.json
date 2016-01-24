@@ -1,5 +1,5 @@
 {
-  "global": {
-    "siteTitle" : "My BootStrap Template"
+  "globals": {
+    "siteTitle" : "My BootStrap boilerplates"
   }
 }
